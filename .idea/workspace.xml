@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c89a0660-fdee-4f5e-9993-bc9d41c984ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/clients/cisco.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/resources/c_c++.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/resources/computer-security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/resources/linux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/resources/network-fundamental.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/C_C++.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/introduction-to-computer-security.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/linux-fundamental.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/networking-fundametal.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/app-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/app-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/app-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/books-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/books-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/books-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/branding-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/branding-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/branding-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/product-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/product-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/resources/product-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inner-page.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,6 +253,10 @@
       <workItem from="1694365416783" duration="1507000" />
       <workItem from="1694370913127" duration="7313000" />
       <workItem from="1694417050851" duration="4655000" />
+      <workItem from="1694431437516" duration="1047000" />
+      <workItem from="1694433320935" duration="2712000" />
+      <workItem from="1694436542277" duration="1907000" />
+      <workItem from="1694438455593" duration="2351000" />
     </task>
     <servers />
   </component>
