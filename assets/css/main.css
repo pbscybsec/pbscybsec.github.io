@@ -1384,9 +1384,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Our Team Section
+# Our video Section
 --------------------------------------------------------------*/
-.team .member {
+.video .member {
   text-align: center;
   background: #fff;
   border-radius: 10px;
@@ -1395,37 +1395,37 @@ section {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
 
-.team .member img {
+.video .member img {
   border-radius: 10px;
   overflow: hidden;
 }
 
-.team .member .member-content {
+.video .member .member-content {
   padding: 0 20px 30px 20px;
 }
 
-.team .member h4 {
+.video .member h4 {
   font-weight: 700;
   margin-top: 16px;
   margin-bottom: 2px;
   font-size: 20px;
 }
 
-.team .member span {
+.video .member span {
   font-style: italic;
   display: block;
   font-size: 14px;
   color: #6c757d;
 }
 
-.team .member p {
+.video .member p {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
   color: #6c757d;
 }
 
-.team .member .social {
+.video .member .social {
   margin-top: 15px;
   margin-bottom: 10px;
   display: flex;
@@ -1433,7 +1433,7 @@ section {
   justify-content: space-around;
 }
 
-.team .member .social a {
+.video .member .social a {
   color: #a2a2a2;
   transition: 0.3s;
   border-radius: 50%;
@@ -1445,12 +1445,12 @@ section {
   border: 1px solid #bbbbbb;
 }
 
-.team .member .social a:hover {
+.video .member .social a:hover {
   color: var(--color-primary);
   border-color: var(--color-primary);
 }
 
-.team .member .social i {
+.video .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
