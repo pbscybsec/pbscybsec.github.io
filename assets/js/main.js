@@ -295,10 +295,6 @@ document.addEventListener('DOMContentLoaded', () => {
 var chatbox = document.getElementById('fb-customer-chat');
 chatbox.setAttribute("page_id", "276427919892722");
 chatbox.setAttribute("attribution", "biz_inbox");
-</script>
-
-<!-- Your SDK code -->
-<script>
   window.fbAsyncInit = function() {
   FB.init({
     xfbml            : true,
