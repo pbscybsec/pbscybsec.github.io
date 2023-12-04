@@ -294,6 +294,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // fetch.js
 
 // Fetch data from the API
+// fetch.js
+
+// Fetch data from the API
 fetch('https://leader4.onrender.com/api/users')
   .then(response => response.json())
   .then(data => {
@@ -308,28 +311,54 @@ fetch('https://leader4.onrender.com/api/users')
   })
   .catch(error => console.error('Error fetching data:', error));
 
-// Function to display the leaderboard
+// Function to display the leaderboard in a table
 function displayLeaderboard(data) {
   const leaderboardElement = document.getElementById('leaderboard');
 
-  // Clear previous content
-  leaderboardElement.innerHTML = '';
+  // Create a table element
+  const table = document.createElement('table');
+  table.classList.add('table', 'table-bordered');
 
-  // Create and append Bootstrap list group items for each user
+  // Create the table header
+  const thead = document.createElement('thead');
+  const headerRow = document.createElement('tr');
+  const rankHeader = document.createElement('th');
+  rankHeader.scope = 'col';
+  rankHeader.textContent = 'Rank';
+  headerRow.appendChild(rankHeader);
+  const nameHeader = document.createElement('th');
+  nameHeader.scope = 'col';
+  nameHeader.textContent = 'Name';
+  headerRow.appendChild(nameHeader);
+  const impressionsHeader = document.createElement('th');
+  impressionsHeader.scope = 'col';
+  impressionsHeader.textContent = 'Impressions';
+  headerRow.appendChild(impressionsHeader);
+  thead.appendChild(headerRow);
+  table.appendChild(thead);
+
+  // Create the table body
+  const tbody = document.createElement('tbody');
   data.forEach((user, index) => {
-    const userElement = document.createElement('li');
-    userElement.classList.add('list-group-item', 'd-flex', 'justify-content-between', 'align-items-center');
+    const row = document.createElement('tr');
+    
+    const rankCell = document.createElement('td');
+    rankCell.textContent = index + 1;
+    row.appendChild(rankCell);
 
-    const rankElement = document.createElement('span');
-    rankElement.classList.add('badge', 'badge-primary', 'badge-pill');
-    rankElement.textContent = index + 1;
+    const nameCell = document.createElement('td');
+    nameCell.textContent = user.name;
+    row.appendChild(nameCell);
 
-    const userInfoElement = document.createElement('span');
-    userInfoElement.textContent = `${user.name}: ${user.impressions} impressions`;
+    const impressionsCell = document.createElement('td');
+    impressionsCell.textContent = user.impressions;
+    row.appendChild(impressionsCell);
 
-    userElement.appendChild(rankElement);
-    userElement.appendChild(userInfoElement);
-
-    leaderboardElement.appendChild(userElement);
+    tbody.appendChild(row);
   });
+  table.appendChild(tbody);
+
+  // Append the table to the leaderboard element
+  leaderboardElement.appendChild(table);
 }
+
