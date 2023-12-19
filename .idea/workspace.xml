@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c89a0660-fdee-4f5e-9993-bc9d41c984ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/swag/linux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/swag/wire.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/swag/wire.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/client-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/clients/crypto.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/clients/crypto.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play_ctf.html" beforeDir="false" afterPath="$PROJECT_DIR$/play_ctf.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swag.html" beforeDir="false" afterPath="$PROJECT_DIR$/swag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +164,8 @@
       <workItem from="1702185526177" duration="39000" />
       <workItem from="1702642328929" duration="3031000" />
       <workItem from="1702902396197" duration="3870000" />
-      <workItem from="1702915403691" duration="717000" />
+      <workItem from="1702915403691" duration="761000" />
+      <workItem from="1703003865784" duration="407000" />
     </task>
     <servers />
   </component>
